@@ -62,7 +62,7 @@ Method:
 POST
 
 URL: 
-http://127.0.0.1:8000/api/users/register/ 
+http://127.0.0.1:8000/api/users/register/
 OR 
 http://localhost:8000/api/users/register/
 
@@ -168,9 +168,6 @@ Add the value for the key :     Bearer <access_token>
 Body: 
 raw and JSON
 ```
-Please note that the Bearer <access_token> has to either be the super user created previously, or the user which you are modifying the account for.
-
-For example, if you are modifying <user_id> 2, you will need the <access_token> for the <user_id> 2 or the super user (admin).
 
 Example of the JSON format to edit a user
 ```
